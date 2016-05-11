@@ -10,6 +10,7 @@ Those that cost a player health, and those that cost a player their life. Will w
 
 Lives Sprite -> Change costume when receive player died message
 Health Sprite -> Change costume when receive player lost health message. How much health? Custom block. Different things make the player lose different amounts of health, so input can vary. Healthbar 100 in increments.
+Health sprite should also check if health <= 0, then can broadcast death/change life.
 
 ### Pit
 
