@@ -12,17 +12,17 @@ Lives Sprite -> Change costume when receive player died message
 Health Sprite -> Change costume when receive player lost health message. How much health? Custom block. Different things make the player lose different amounts of health, so input can vary. Healthbar 100 in increments.
 Health sprite should also check if health <= 0, then can broadcast death/change life.
 
-### Pit
+### Pit / Stationary
 
 Lose entire life
 
 A hole in the ground. If we break up the color, the player would keep falling. We could detect if the player's Y position gets below  certain point.
 
-### Big Guy
+### Moving Enemy
 
 Lose a lot of health, broadcast to health lost touching. 25%.
 
-### Little Guy
+### Falling
 
 Lose a little health when step on a nail. Broadcast small amount of health lost. 10%
 
